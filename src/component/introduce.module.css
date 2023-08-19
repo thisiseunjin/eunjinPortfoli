@@ -1,0 +1,46 @@
+.Box {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  justify-content: center;
+}
+.header {
+  height: 150px;
+  background-color: #b8dff8;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-family: "GmarketSans";
+  font-size: 26px;
+}
+.photo {
+  height: 70vh;
+  width: 35vw;
+  float: left;
+}
+.introContainer {
+  font-family: "GmarketSans";
+  padding-left: 30px;
+  float: right;
+}
+.infoHeader {
+  font-size: 40px;
+  background-color: #fff44f;
+  width: fit-content;
+}
+
+.explainHeader {
+  font-size: 25px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.explain {
+  font-size: 20px;
+  margin-left: 43px;
+  letter-spacing: 1px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
