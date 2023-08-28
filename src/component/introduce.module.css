@@ -1,11 +1,11 @@
 .Box {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 5px;
   justify-content: center;
 }
 .header {
-  height: 150px;
+  height: 100px;
   background-color: #b8dff8;
   align-items: center;
   align-self: center;
@@ -16,9 +16,10 @@
   font-size: 26px;
 }
 .photo {
-  height: 70vh;
-  width: 35vw;
-  float: left;
+  height: 40vh;
+  width: 20vw;
+  display: flex;
+  justify-self: start;
 }
 .introContainer {
   font-family: "GmarketSans";
@@ -26,21 +27,70 @@
   float: right;
 }
 .infoHeader {
-  font-size: 40px;
+  font-size: 30px;
   background-color: #fff44f;
   width: fit-content;
 }
 
 .explainHeader {
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 17px;
+  margin-bottom: 10px;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .explain {
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 43px;
   letter-spacing: 1px;
   line-height: 2;
   margin-bottom: 30px;
+}
+
+.aboutMeHeader {
+  font-size: 30px;
+  background-color: aquamarine;
+}
+
+.aboutMe {
+  height: 40px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-family: "GmarketSans";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutMeBox {
+  /* background-color: #b8dff8; */
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  padding: 0px 200px;
+  align-items: center;
+}
+
+.items {
+  text-align: center;
+  font-family: "GmarketSans";
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.item {
+  margin-bottom: 20px;
+  background-color: bisque;
+  margin: 20px 10px;
+}
+
+.text {
+  margin-bottom: 10px;
 }

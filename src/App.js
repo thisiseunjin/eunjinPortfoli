@@ -5,8 +5,8 @@ import "./font/font.css";
 function App() {
   return (
     <div>
-      {/* <Introduce /> */}
-      <Education />
+      <Introduce />
+      {/* <Education /> */}
     </div>
   );
 }
