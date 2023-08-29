@@ -1,0 +1,58 @@
+.container {
+  /* margin-top: 30vh; */
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  position: relative;
+}
+
+.paper {
+  padding: 15px;
+  background-color: aquamarine !important;
+}
+
+.stackHeader {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "GmarketSans";
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.stackName {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "GmarketSans";
+  margin-bottom: 30px;
+  color: blue;
+}
+.stackContainer {
+  display: flex;
+  justify-content: center;
+}
+.stackText {
+  font-family: "GmarketSans";
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.leftPaper {
+  margin-left: 300px;
+  font-family: "GmarketSans";
+  text-align: left;
+  padding: 20px;
+  background-color: aquamarine !important;
+}
+.projectName {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.rightPaper {
+  margin-right: 300px;
+  font-family: "GmarketSans";
+  text-align: left;
+  padding: 20px;
+  background-color: aquamarine !important;
+}

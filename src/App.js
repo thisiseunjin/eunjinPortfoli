@@ -1,12 +1,12 @@
 import * as React from "react";
 import Introduce from "./component/introduce";
-import Education from "./component/education";
+import Stack from "./component/stack";
 import "./font/font.css";
 function App() {
   return (
     <div>
       <Introduce />
-      {/* <Education /> */}
+      <Stack />
     </div>
   );
 }
