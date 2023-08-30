@@ -1,9 +1,16 @@
 .container {
-  /* margin-top: 30vh; */
+  /* margin-top: 30vh;
   justify-content: center;
   height: 500px;
   align-items: center;
   position: relative;
+  transform: translate3d(-50%, -50%, 0); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 500px;
+  transform: translate3d(-50%, -40%, 0);
 }
 
 .paper {
@@ -13,6 +20,15 @@
 
 .stackHeader {
   font-size: 40px;
+  font-weight: bold;
+  font-family: "GmarketSans";
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.timeLineHeader {
+  margin-top: 30px;
+  font-size: 30px;
   font-weight: bold;
   font-family: "GmarketSans";
   margin: 30px 0px;
@@ -37,11 +53,12 @@
 }
 
 .leftPaper {
-  margin-left: 300px;
+  margin-left: 25%;
   font-family: "GmarketSans";
   text-align: left;
   padding: 20px;
   background-color: aquamarine !important;
+  margin-bottom: 20px;
 }
 .projectName {
   font-size: 17px;
@@ -50,7 +67,7 @@
 }
 
 .rightPaper {
-  margin-right: 300px;
+  margin-right: 25%;
   font-family: "GmarketSans";
   text-align: left;
   padding: 20px;

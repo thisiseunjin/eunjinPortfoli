@@ -2,7 +2,7 @@ import * as React from "react";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import styles from "./introduce.module.css";
-import eunjin from "../eunjin.jpg";
+import eunjin from "../image/eunjin.jpg";
 
 function Introduce() {
   return (
