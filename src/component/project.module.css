@@ -1,0 +1,20 @@
+.image {
+  width: 15vw;
+  height: 20vh;
+  padding-bottom: 20px;
+}
+
+.pjtTitle {
+  font-size: 25px;
+  font-family: "GmarketSans";
+  font-weight: bold;
+}
+
+.detailContainer {
+  margin-right: 10vw;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.gitBtn {
+  margin-left: 1vw !important;
+}

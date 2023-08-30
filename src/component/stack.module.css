@@ -1,16 +1,10 @@
 .container {
-  /* margin-top: 30vh;
-  justify-content: center;
-  height: 500px;
-  align-items: center;
   position: relative;
-  transform: translate3d(-50%, -50%, 0); */
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  /* top: 50%; */
+  /* left: 50%; */
   width: 100vw;
   height: 500px;
-  transform: translate3d(-50%, -40%, 0);
+  /* transform: translate3d(-50%, -40%, 0); */
 }
 
 .paper {
