@@ -7,18 +7,17 @@ import Paper from "@mui/material/Paper";
 
 export default function Stack() {
   return (
-    <div>
+    <div className={styles["container"]}>
       <div>
         <div className={styles["container"]}>
           <div className={styles["stackHeader"]}>🛠 STACKS</div>
           <div>
             <Grid
               container
-              spacing={5}
-              columns={18}
-              className={styles["stackContainer"]}
+              rowSpacing={1}
+              columnSpacing={{ xs: 1, sm: 2, md: 3 }}
             >
-              <Grid item xs={4}>
+              <Grid item xs={6} className={styles["stackContainer"]}>
                 <Paper className={styles["paper"]}>
                   <div className={styles["stackName"]}>WEB BACK-END</div>
                   <div className={styles["stackText"]}>JAVA</div>
@@ -27,7 +26,7 @@ export default function Stack() {
                   <div className={styles["stackText"]}>MySql</div>
                 </Paper>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={6} className={styles["stackContainer"]}>
                 <Paper className={styles["paper"]}>
                   <div className={styles["stackName"]}>WEB FRONT-END</div>
                   <div className={styles["stackText"]}>React</div>
@@ -35,13 +34,13 @@ export default function Stack() {
                   <div className={styles["stackText"]}>HTML</div>
                 </Paper>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={6} className={styles["stackContainer"]}>
                 <Paper className={styles["paper"]}>
                   <div className={styles["stackName"]}>MOBILE APP</div>
                   <div className={styles["stackText"]}>Andriod Studio</div>
                 </Paper>
               </Grid>
-              <Grid item xs={4}>
+              <Grid item xs={6} className={styles["stackContainer"]}>
                 <Paper className={styles["paper"]}>
                   <div className={styles["stackName"]}>TEAM COLLABORATION</div>
                   <div className={styles["stackText"]}>Git</div>
@@ -50,6 +49,13 @@ export default function Stack() {
                 </Paper>
               </Grid>
             </Grid>
+            {/* s
+            <Grid
+              container
+              spacing={5}
+              columns={18}
+              className={styles["stackContainer"]}
+            ></Grid> */}
           </div>
         </div>
       </div>
