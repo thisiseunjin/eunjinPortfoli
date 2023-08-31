@@ -1,6 +1,6 @@
 .container {
-  position: relative;
-  width: 100vw;
+  margin-top: 20px;
+  width: 90vw;
   height: 500px;
 }
 
@@ -66,4 +66,55 @@
   text-align: left;
   padding: 20px;
   background-color: aquamarine !important;
+}
+
+.aboutMeHeader {
+  font-size: 30px;
+  background-color: aquamarine;
+}
+
+.aboutMe {
+  height: 40px;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-family: "GmarketSans";
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutMeBox {
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding: 0px 10vw;
+}
+
+.items {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  font-family: "GmarketSans";
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.item {
+  padding-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+.paper {
+  background-color: #b8dff8 !important;
+  padding-bottom: 3px !important;
 }
